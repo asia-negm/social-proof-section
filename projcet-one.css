@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-top: 100px;
+}
+.title {
+  width: 500px;
+  color: hsl(300, 43%, 22%);
+  font-size: 60px;
+  padding-bottom: 15px;
+  font-weight: bolder;
+  font-family: "League Spartan", sans-serif;
+}
+.pargraf-1 {
+  width: 500px;
+  color: hsl(300, 43%, 22%);
+  font-size: 20px;
+  padding-left: 0;
+  font-family: "League Spartan", sans-serif;
+}
+ul {
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  list-style: none;
+  flex-direction: column;
+  width: 500px;
+
+  /* background-color: rgb(229, 227, 227); */
+}
+.contaner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.list-1,
+.list-2,
+.list-3 {
+  font-family: "League Spartan", sans-serif;
+  position: relative;
+  transition-property: right, left;
+  transition-duration: 2s;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: hsl(300, 24%, 96%);
+  width: 500px;
+  height: 40px;
+  text-align: end;
+  padding-right: 30px;
+  border-radius: 5px;
+  color: hsl(300, 43%, 22%);
+  font-weight: bolder;
+  padding-top: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.list-1:hover,
+.list-2:hover,
+.list-3:hover {
+  right: 20px;
+}
+.cards {
+  color: white;
+  font-size: 20px;
+  width: 1500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.content {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  background-color: hsl(300, 43%, 22%);
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: top ease 0.5s;
+  -moz-transition: top ease 0.5s;
+  -ms-transition: top ease 0.5s;
+  -o-transition: top ease 0.5s;
+}
+.content:hover {
+  top: -40px;
+}
+.img {
+  border-radius: 50%;
+  float: inline-start;
+  margin-right: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Verified {
+  color: hsl(333, 80%, 67%);
+}
+p {
+  display: inline-block;
+  padding: 30px;
+}
+.card-1 {
+  margin-top: 20px;
+}
+.card-2 {
+  margin-top: 40px;
+}
+.card-3 {
+  margin-top: 60px;
+}
+.list-1 {
+  margin-right: 60px;
+}
+.list-2 {
+  margin-right: 40px;
+}
+.list-3 {
+  margin-right: 20px;
+}
+.attribution {
+  float: right;
+}
